@@ -291,6 +291,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "144. Binary Tree Preorder T
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "145. Binary Tree Postorder Traversal", "145. Binary Tree Postorder Traversal\145. Binary Tree Postorder Traversal.vcxproj", "{B318A1AF-BB43-477F-8B97-DD0659B60155}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TraversalNoRecursion", "TraversalNoRecursion\TraversalNoRecursion.vcxproj", "{35247579-A192-4C6A-A7C8-A313E4C927D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -873,6 +875,10 @@ Global
 		{B318A1AF-BB43-477F-8B97-DD0659B60155}.Debug|Win32.Build.0 = Debug|Win32
 		{B318A1AF-BB43-477F-8B97-DD0659B60155}.Release|Win32.ActiveCfg = Release|Win32
 		{B318A1AF-BB43-477F-8B97-DD0659B60155}.Release|Win32.Build.0 = Release|Win32
+		{35247579-A192-4C6A-A7C8-A313E4C927D2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{35247579-A192-4C6A-A7C8-A313E4C927D2}.Debug|Win32.Build.0 = Debug|Win32
+		{35247579-A192-4C6A-A7C8-A313E4C927D2}.Release|Win32.ActiveCfg = Release|Win32
+		{35247579-A192-4C6A-A7C8-A313E4C927D2}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
