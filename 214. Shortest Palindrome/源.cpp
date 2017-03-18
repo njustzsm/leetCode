@@ -1,46 +1,39 @@
 #include<iostream>
 #include<string>
-
+#include<vector>
 using namespace std;
 
-bool isPalindrome(string s)
-{
-	int m = s.size();
-	if (m == 1)return true;
-
-	int p = 0, q = m - 1;
-	while (p<q)
-	{
-		if (s[p] != s[q])
-			return false;
-		p++;
-		q--;
-	}
-	return true;
-}
 
 
 string shortestPalindrome(string s) 
 {
-	int m = s.size();
-	if (m == 0)return "";
+	string str = s;
 
-	if (isPalindrome(s))return s;
+	reverse(str.begin(),str.end());
 
-	string result = s;
+	str += s + "#" + str;
 
-	for (int i = m - 1; i >= 1; i--)
+	int len1 = s.size(), len2 = str.size();
+
+
+	vector<int>vec(len2,0);
+
+	for (int i = 1; i < len2; i++)
 	{
-		string str = s.substr(0,i);
-		if (isPalindrome(str))
+		int k = vec[i-1];
+		while (k>0&&str[k]!=str[i])
 		{
-			for (int j = i; j < m; j++)
-			{
-				result= s[j]+result;
-			}
-			return result;
+			k = vec[k - 1];
 		}
+		
+		if (str[i] == str[k])
+		{
+			k += 1;
+		}
+		vec[i] = k;
+
 	}
+	return str.substr(len1+1,len1-vec[len2-1])+s;
 
 
 }
