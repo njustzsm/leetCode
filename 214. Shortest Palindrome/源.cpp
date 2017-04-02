@@ -5,7 +5,7 @@ using namespace std;
 
 
 
-string shortestPalindrome(string s) 
+string shortestPalindrome1(string s) 
 {
 	string str = s;
 
@@ -38,7 +38,51 @@ string shortestPalindrome(string s)
 
 }
 
+string shortestPalindrome(string s)
+{
+	int n = s.size();
+	string t = s;
+	reverse(t.begin(),t.end());
+	
+
+	t = s +'#'+ t;
+	int*myNext = new int[n*2+2];
+	myNext[0] = -1;
+
+
+	int j = 0, k = -1;
+	while (t[j]!='\0')
+	{
+		while (k!=-1&&t[j]!=t[k])
+		{
+			k = myNext[k];
+		}
+
+		k++;
+		j++;
+		if (t[j] == t[k])
+			myNext[j] = myNext[k];
+		else
+			myNext[j] = k;
+	}
+
+	int length = myNext[2 * n + 1];
+
+	if (length == n)
+		return s;
+	else
+	{
+		string tt = s.substr(length);
+		reverse(tt.begin(),tt.end());
+		return tt + s;
+	}
+		
+
+
+
+}
 void main()
 {
-
+	string a = "aacecaaa";
+	string result = shortestPalindrome(a);
 }
