@@ -473,6 +473,24 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "284. Peeking Iterator", "28
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "287. Find the Duplicate Number", "287. Find the Duplicate Number\287. Find the Duplicate Number.vcxproj", "{CCA29DB3-A1A3-46E0-9779-D2304CC23DD5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "289. Game of Life", "289. Game of Life\289. Game of Life.vcxproj", "{38077980-1AAD-4A6E-B4E3-243691755BC9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "290. Word Pattern", "290. Word Pattern\290. Word Pattern.vcxproj", "{36F21B1D-171E-449B-B1C7-FF4A1DD280E6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "295. Find Median from Data Stream", "295. Find Median from Data Stream\295. Find Median from Data Stream.vcxproj", "{2489AA57-C225-4017-AA37-961C91E9F1A8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "297. Serialize and Deserialize Binary Tree", "297. Serialize and Deserialize Binary Tree\297. Serialize and Deserialize Binary Tree.vcxproj", "{42BA0807-E223-4836-BCE0-215477AA6C94}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "299. Bulls and Cows", "299. Bulls and Cows\299. Bulls and Cows.vcxproj", "{28BC9773-5993-42E5-B485-52E369118669}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "300. Longest Increasing Subsequence", "300. Longest Increasing Subsequence\300. Longest Increasing Subsequence.vcxproj", "{421F31A1-95DD-440F-81E6-D92DF4ABC23D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "301. Remove Invalid Parentheses", "301. Remove Invalid Parentheses\301. Remove Invalid Parentheses.vcxproj", "{39F846DD-AF25-41C1-AC09-472EE19B84DA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "303. Range Sum Query - Immutable", "303. Range Sum Query - Immutable\303. Range Sum Query - Immutable.vcxproj", "{9471FDDB-C067-43E1-B1D9-547D83650746}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "304. Range Sum Query 2D - Immutable", "304. Range Sum Query 2D - Immutable\304. Range Sum Query 2D - Immutable.vcxproj", "{954060D6-11E0-437C-9B51-888C2BD80756}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -1419,6 +1437,42 @@ Global
 		{CCA29DB3-A1A3-46E0-9779-D2304CC23DD5}.Debug|Win32.Build.0 = Debug|Win32
 		{CCA29DB3-A1A3-46E0-9779-D2304CC23DD5}.Release|Win32.ActiveCfg = Release|Win32
 		{CCA29DB3-A1A3-46E0-9779-D2304CC23DD5}.Release|Win32.Build.0 = Release|Win32
+		{38077980-1AAD-4A6E-B4E3-243691755BC9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{38077980-1AAD-4A6E-B4E3-243691755BC9}.Debug|Win32.Build.0 = Debug|Win32
+		{38077980-1AAD-4A6E-B4E3-243691755BC9}.Release|Win32.ActiveCfg = Release|Win32
+		{38077980-1AAD-4A6E-B4E3-243691755BC9}.Release|Win32.Build.0 = Release|Win32
+		{36F21B1D-171E-449B-B1C7-FF4A1DD280E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{36F21B1D-171E-449B-B1C7-FF4A1DD280E6}.Debug|Win32.Build.0 = Debug|Win32
+		{36F21B1D-171E-449B-B1C7-FF4A1DD280E6}.Release|Win32.ActiveCfg = Release|Win32
+		{36F21B1D-171E-449B-B1C7-FF4A1DD280E6}.Release|Win32.Build.0 = Release|Win32
+		{2489AA57-C225-4017-AA37-961C91E9F1A8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2489AA57-C225-4017-AA37-961C91E9F1A8}.Debug|Win32.Build.0 = Debug|Win32
+		{2489AA57-C225-4017-AA37-961C91E9F1A8}.Release|Win32.ActiveCfg = Release|Win32
+		{2489AA57-C225-4017-AA37-961C91E9F1A8}.Release|Win32.Build.0 = Release|Win32
+		{42BA0807-E223-4836-BCE0-215477AA6C94}.Debug|Win32.ActiveCfg = Debug|Win32
+		{42BA0807-E223-4836-BCE0-215477AA6C94}.Debug|Win32.Build.0 = Debug|Win32
+		{42BA0807-E223-4836-BCE0-215477AA6C94}.Release|Win32.ActiveCfg = Release|Win32
+		{42BA0807-E223-4836-BCE0-215477AA6C94}.Release|Win32.Build.0 = Release|Win32
+		{28BC9773-5993-42E5-B485-52E369118669}.Debug|Win32.ActiveCfg = Debug|Win32
+		{28BC9773-5993-42E5-B485-52E369118669}.Debug|Win32.Build.0 = Debug|Win32
+		{28BC9773-5993-42E5-B485-52E369118669}.Release|Win32.ActiveCfg = Release|Win32
+		{28BC9773-5993-42E5-B485-52E369118669}.Release|Win32.Build.0 = Release|Win32
+		{421F31A1-95DD-440F-81E6-D92DF4ABC23D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{421F31A1-95DD-440F-81E6-D92DF4ABC23D}.Debug|Win32.Build.0 = Debug|Win32
+		{421F31A1-95DD-440F-81E6-D92DF4ABC23D}.Release|Win32.ActiveCfg = Release|Win32
+		{421F31A1-95DD-440F-81E6-D92DF4ABC23D}.Release|Win32.Build.0 = Release|Win32
+		{39F846DD-AF25-41C1-AC09-472EE19B84DA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{39F846DD-AF25-41C1-AC09-472EE19B84DA}.Debug|Win32.Build.0 = Debug|Win32
+		{39F846DD-AF25-41C1-AC09-472EE19B84DA}.Release|Win32.ActiveCfg = Release|Win32
+		{39F846DD-AF25-41C1-AC09-472EE19B84DA}.Release|Win32.Build.0 = Release|Win32
+		{9471FDDB-C067-43E1-B1D9-547D83650746}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9471FDDB-C067-43E1-B1D9-547D83650746}.Debug|Win32.Build.0 = Debug|Win32
+		{9471FDDB-C067-43E1-B1D9-547D83650746}.Release|Win32.ActiveCfg = Release|Win32
+		{9471FDDB-C067-43E1-B1D9-547D83650746}.Release|Win32.Build.0 = Release|Win32
+		{954060D6-11E0-437C-9B51-888C2BD80756}.Debug|Win32.ActiveCfg = Debug|Win32
+		{954060D6-11E0-437C-9B51-888C2BD80756}.Debug|Win32.Build.0 = Debug|Win32
+		{954060D6-11E0-437C-9B51-888C2BD80756}.Release|Win32.ActiveCfg = Release|Win32
+		{954060D6-11E0-437C-9B51-888C2BD80756}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

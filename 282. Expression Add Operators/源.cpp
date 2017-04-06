@@ -150,7 +150,7 @@ vector<string> addOperators1(string num, int target)
 		return result;
 	}
 
-	sum = target;
+	myTarget = target;
 
 	dfs(0,num);
 
