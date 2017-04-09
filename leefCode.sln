@@ -491,6 +491,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "303. Range Sum Query - Immu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "304. Range Sum Query 2D - Immutable", "304. Range Sum Query 2D - Immutable\304. Range Sum Query 2D - Immutable.vcxproj", "{954060D6-11E0-437C-9B51-888C2BD80756}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "306. Additive Number", "306. Additive Number\306. Additive Number.vcxproj", "{DF0C3CC5-2996-47F1-BDB4-96DD9996EB69}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "307. Range Sum Query - Mutable", "307. Range Sum Query - Mutable\307. Range Sum Query - Mutable.vcxproj", "{F2CBF29B-9E22-419D-A498-237F671E84E5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "309. Best Time to Buy and Sell Stock with Cooldown", "309. Best Time to Buy and Sell Stock with Cooldown\309. Best Time to Buy and Sell Stock with Cooldown.vcxproj", "{2FEB42ED-4BE3-4306-9A42-97EA4F335CE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -1473,6 +1479,18 @@ Global
 		{954060D6-11E0-437C-9B51-888C2BD80756}.Debug|Win32.Build.0 = Debug|Win32
 		{954060D6-11E0-437C-9B51-888C2BD80756}.Release|Win32.ActiveCfg = Release|Win32
 		{954060D6-11E0-437C-9B51-888C2BD80756}.Release|Win32.Build.0 = Release|Win32
+		{DF0C3CC5-2996-47F1-BDB4-96DD9996EB69}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DF0C3CC5-2996-47F1-BDB4-96DD9996EB69}.Debug|Win32.Build.0 = Debug|Win32
+		{DF0C3CC5-2996-47F1-BDB4-96DD9996EB69}.Release|Win32.ActiveCfg = Release|Win32
+		{DF0C3CC5-2996-47F1-BDB4-96DD9996EB69}.Release|Win32.Build.0 = Release|Win32
+		{F2CBF29B-9E22-419D-A498-237F671E84E5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F2CBF29B-9E22-419D-A498-237F671E84E5}.Debug|Win32.Build.0 = Debug|Win32
+		{F2CBF29B-9E22-419D-A498-237F671E84E5}.Release|Win32.ActiveCfg = Release|Win32
+		{F2CBF29B-9E22-419D-A498-237F671E84E5}.Release|Win32.Build.0 = Release|Win32
+		{2FEB42ED-4BE3-4306-9A42-97EA4F335CE7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2FEB42ED-4BE3-4306-9A42-97EA4F335CE7}.Debug|Win32.Build.0 = Debug|Win32
+		{2FEB42ED-4BE3-4306-9A42-97EA4F335CE7}.Release|Win32.ActiveCfg = Release|Win32
+		{2FEB42ED-4BE3-4306-9A42-97EA4F335CE7}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
