@@ -497,6 +497,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "307. Range Sum Query - Muta
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "309. Best Time to Buy and Sell Stock with Cooldown", "309. Best Time to Buy and Sell Stock with Cooldown\309. Best Time to Buy and Sell Stock with Cooldown.vcxproj", "{2FEB42ED-4BE3-4306-9A42-97EA4F335CE7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "310. Minimum Height Trees", "310. Minimum Height Trees\310. Minimum Height Trees.vcxproj", "{D82ACD3D-7558-497B-91DD-CAEE5B852345}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "312. Burst Balloons", "312. Burst Balloons\312. Burst Balloons.vcxproj", "{99402772-55B1-4050-A692-6C6B1E59E59F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -1491,6 +1495,14 @@ Global
 		{2FEB42ED-4BE3-4306-9A42-97EA4F335CE7}.Debug|Win32.Build.0 = Debug|Win32
 		{2FEB42ED-4BE3-4306-9A42-97EA4F335CE7}.Release|Win32.ActiveCfg = Release|Win32
 		{2FEB42ED-4BE3-4306-9A42-97EA4F335CE7}.Release|Win32.Build.0 = Release|Win32
+		{D82ACD3D-7558-497B-91DD-CAEE5B852345}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D82ACD3D-7558-497B-91DD-CAEE5B852345}.Debug|Win32.Build.0 = Debug|Win32
+		{D82ACD3D-7558-497B-91DD-CAEE5B852345}.Release|Win32.ActiveCfg = Release|Win32
+		{D82ACD3D-7558-497B-91DD-CAEE5B852345}.Release|Win32.Build.0 = Release|Win32
+		{99402772-55B1-4050-A692-6C6B1E59E59F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{99402772-55B1-4050-A692-6C6B1E59E59F}.Debug|Win32.Build.0 = Debug|Win32
+		{99402772-55B1-4050-A692-6C6B1E59E59F}.Release|Win32.ActiveCfg = Release|Win32
+		{99402772-55B1-4050-A692-6C6B1E59E59F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
