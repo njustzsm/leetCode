@@ -1,24 +1,27 @@
 #include<iostream>
 #include<vector>
-
+#include<algorithm>
+#include<list>
 using namespace std;
 
+ 
 int maxCoins(vector<int>& nums) 
 {
 	int n = nums.size();
 
-	int*dp = new int[n];
-	//int*lastVal = new int[n];
+	int* arr=new int[n+2];
+	arr[0] = arr[n + 1] = 1;
 
-	dp[0] = nums[0];
-	//lastVal[0] = nums[0];
+	for (int i = 1; i <= n; i++)
+		arr[i] = nums[i - 1];
 
-	
-	for (int i = 0; i < n; i++)
+	int**dp = new int*[n + 2];
+	for (int i = 0; i < n + 2; i++)
 	{
-		//dp[i] = max(dp[i-1]+nums[i]*nums[i-1],dp[i-1]-lastVal[i-1]+);
+		dp[i] = new int[n + 2];
 	}
 
+	return 0;
 
 
 
@@ -26,6 +29,8 @@ int maxCoins(vector<int>& nums)
 
 int main()
 {
+	vector<int>data{3,1,5,8};
+	int result = maxCoins(data);
 	return 0;
 
 }
