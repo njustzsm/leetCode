@@ -511,6 +511,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "318. Maximum Product of Wor
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "319. Bulb Switcher", "319. Bulb Switcher\319. Bulb Switcher.vcxproj", "{D07D55E9-628E-4033-8833-184506F16566}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "321. Create Maximum Number", "321. Create Maximum Number\321. Create Maximum Number.vcxproj", "{1E0B779D-E94A-4DBE-B33C-DE4344162155}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "324. Wiggle Sort II", "324. Wiggle Sort II\324. Wiggle Sort II.vcxproj", "{DE2BC8FF-AE49-40F1-B95A-39D708424AD1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "326. Power of Three", "326. Power of Three\326. Power of Three.vcxproj", "{1C6754F8-BD0C-4D4A-8BDD-262CCAEE90F9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "327. Count of Range Sum", "327. Count of Range Sum\327. Count of Range Sum.vcxproj", "{4E25B2EB-E4FC-4114-A074-1AC964C9CB8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -1533,6 +1541,22 @@ Global
 		{D07D55E9-628E-4033-8833-184506F16566}.Debug|Win32.Build.0 = Debug|Win32
 		{D07D55E9-628E-4033-8833-184506F16566}.Release|Win32.ActiveCfg = Release|Win32
 		{D07D55E9-628E-4033-8833-184506F16566}.Release|Win32.Build.0 = Release|Win32
+		{1E0B779D-E94A-4DBE-B33C-DE4344162155}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1E0B779D-E94A-4DBE-B33C-DE4344162155}.Debug|Win32.Build.0 = Debug|Win32
+		{1E0B779D-E94A-4DBE-B33C-DE4344162155}.Release|Win32.ActiveCfg = Release|Win32
+		{1E0B779D-E94A-4DBE-B33C-DE4344162155}.Release|Win32.Build.0 = Release|Win32
+		{DE2BC8FF-AE49-40F1-B95A-39D708424AD1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DE2BC8FF-AE49-40F1-B95A-39D708424AD1}.Debug|Win32.Build.0 = Debug|Win32
+		{DE2BC8FF-AE49-40F1-B95A-39D708424AD1}.Release|Win32.ActiveCfg = Release|Win32
+		{DE2BC8FF-AE49-40F1-B95A-39D708424AD1}.Release|Win32.Build.0 = Release|Win32
+		{1C6754F8-BD0C-4D4A-8BDD-262CCAEE90F9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1C6754F8-BD0C-4D4A-8BDD-262CCAEE90F9}.Debug|Win32.Build.0 = Debug|Win32
+		{1C6754F8-BD0C-4D4A-8BDD-262CCAEE90F9}.Release|Win32.ActiveCfg = Release|Win32
+		{1C6754F8-BD0C-4D4A-8BDD-262CCAEE90F9}.Release|Win32.Build.0 = Release|Win32
+		{4E25B2EB-E4FC-4114-A074-1AC964C9CB8A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4E25B2EB-E4FC-4114-A074-1AC964C9CB8A}.Debug|Win32.Build.0 = Debug|Win32
+		{4E25B2EB-E4FC-4114-A074-1AC964C9CB8A}.Release|Win32.ActiveCfg = Release|Win32
+		{4E25B2EB-E4FC-4114-A074-1AC964C9CB8A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
