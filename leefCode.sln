@@ -519,6 +519,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "326. Power of Three", "326.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "327. Count of Range Sum", "327. Count of Range Sum\327. Count of Range Sum.vcxproj", "{4E25B2EB-E4FC-4114-A074-1AC964C9CB8A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "328. Odd Even Linked List", "328. Odd Even Linked List\328. Odd Even Linked List.vcxproj", "{DBC15CB8-257F-45FC-90E8-281075DAAB72}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "329. Longest Increasing Path in a Matrix", "329. Longest Increasing Path in a Matrix\329. Longest Increasing Path in a Matrix.vcxproj", "{0720BFD6-CC31-45F9-8318-E8339F56D9C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -1557,6 +1561,14 @@ Global
 		{4E25B2EB-E4FC-4114-A074-1AC964C9CB8A}.Debug|Win32.Build.0 = Debug|Win32
 		{4E25B2EB-E4FC-4114-A074-1AC964C9CB8A}.Release|Win32.ActiveCfg = Release|Win32
 		{4E25B2EB-E4FC-4114-A074-1AC964C9CB8A}.Release|Win32.Build.0 = Release|Win32
+		{DBC15CB8-257F-45FC-90E8-281075DAAB72}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DBC15CB8-257F-45FC-90E8-281075DAAB72}.Debug|Win32.Build.0 = Debug|Win32
+		{DBC15CB8-257F-45FC-90E8-281075DAAB72}.Release|Win32.ActiveCfg = Release|Win32
+		{DBC15CB8-257F-45FC-90E8-281075DAAB72}.Release|Win32.Build.0 = Release|Win32
+		{0720BFD6-CC31-45F9-8318-E8339F56D9C6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0720BFD6-CC31-45F9-8318-E8339F56D9C6}.Debug|Win32.Build.0 = Debug|Win32
+		{0720BFD6-CC31-45F9-8318-E8339F56D9C6}.Release|Win32.ActiveCfg = Release|Win32
+		{0720BFD6-CC31-45F9-8318-E8339F56D9C6}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
