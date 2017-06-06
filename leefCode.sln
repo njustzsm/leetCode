@@ -527,6 +527,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "330. Patching Array", "330.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "331. Verify Preorder Serialization of a Binary Tree", "331. Verify Preorder Serialization of a Binary Tree\331. Verify Preorder Serialization of a Binary Tree.vcxproj", "{1896573D-8DA2-4BA1-A810-619DA64791CF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "332. Reconstruct Itinerary", "332. Reconstruct Itinerary\332. Reconstruct Itinerary.vcxproj", "{29676712-B9A9-44E4-A50E-4526FA195C00}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "334. Increasing Triplet Subsequence", "334. Increasing Triplet Subsequence\334. Increasing Triplet Subsequence.vcxproj", "{5D6E7C3D-8A9D-4B1E-BF26-2659D7B83D19}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "335. Self Crossing", "335. Self Crossing\335. Self Crossing.vcxproj", "{761DC300-8359-4449-82A2-F6288210FE99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -1581,6 +1587,18 @@ Global
 		{1896573D-8DA2-4BA1-A810-619DA64791CF}.Debug|Win32.Build.0 = Debug|Win32
 		{1896573D-8DA2-4BA1-A810-619DA64791CF}.Release|Win32.ActiveCfg = Release|Win32
 		{1896573D-8DA2-4BA1-A810-619DA64791CF}.Release|Win32.Build.0 = Release|Win32
+		{29676712-B9A9-44E4-A50E-4526FA195C00}.Debug|Win32.ActiveCfg = Debug|Win32
+		{29676712-B9A9-44E4-A50E-4526FA195C00}.Debug|Win32.Build.0 = Debug|Win32
+		{29676712-B9A9-44E4-A50E-4526FA195C00}.Release|Win32.ActiveCfg = Release|Win32
+		{29676712-B9A9-44E4-A50E-4526FA195C00}.Release|Win32.Build.0 = Release|Win32
+		{5D6E7C3D-8A9D-4B1E-BF26-2659D7B83D19}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5D6E7C3D-8A9D-4B1E-BF26-2659D7B83D19}.Debug|Win32.Build.0 = Debug|Win32
+		{5D6E7C3D-8A9D-4B1E-BF26-2659D7B83D19}.Release|Win32.ActiveCfg = Release|Win32
+		{5D6E7C3D-8A9D-4B1E-BF26-2659D7B83D19}.Release|Win32.Build.0 = Release|Win32
+		{761DC300-8359-4449-82A2-F6288210FE99}.Debug|Win32.ActiveCfg = Debug|Win32
+		{761DC300-8359-4449-82A2-F6288210FE99}.Debug|Win32.Build.0 = Debug|Win32
+		{761DC300-8359-4449-82A2-F6288210FE99}.Release|Win32.ActiveCfg = Release|Win32
+		{761DC300-8359-4449-82A2-F6288210FE99}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
