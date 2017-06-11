@@ -533,6 +533,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "334. Increasing Triplet Sub
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "335. Self Crossing", "335. Self Crossing\335. Self Crossing.vcxproj", "{761DC300-8359-4449-82A2-F6288210FE99}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "336. Palindrome Pairs", "336. Palindrome Pairs\336. Palindrome Pairs.vcxproj", "{CA9A9D33-2814-484D-9DA6-BEB5F8E96E98}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "337. House Robber III", "337. House Robber III\337. House Robber III.vcxproj", "{658668CE-E97D-4F53-80D2-BE5688FCE247}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "338. Counting Bits", "338. Counting Bits\338. Counting Bits.vcxproj", "{2B4A79B4-1931-4182-B540-B0C535540629}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "341. Flatten Nested List Iterator", "341. Flatten Nested List Iterator\341. Flatten Nested List Iterator.vcxproj", "{EC21BD11-A8F6-45B4-9BF9-E629560E418A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -1599,6 +1607,22 @@ Global
 		{761DC300-8359-4449-82A2-F6288210FE99}.Debug|Win32.Build.0 = Debug|Win32
 		{761DC300-8359-4449-82A2-F6288210FE99}.Release|Win32.ActiveCfg = Release|Win32
 		{761DC300-8359-4449-82A2-F6288210FE99}.Release|Win32.Build.0 = Release|Win32
+		{CA9A9D33-2814-484D-9DA6-BEB5F8E96E98}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CA9A9D33-2814-484D-9DA6-BEB5F8E96E98}.Debug|Win32.Build.0 = Debug|Win32
+		{CA9A9D33-2814-484D-9DA6-BEB5F8E96E98}.Release|Win32.ActiveCfg = Release|Win32
+		{CA9A9D33-2814-484D-9DA6-BEB5F8E96E98}.Release|Win32.Build.0 = Release|Win32
+		{658668CE-E97D-4F53-80D2-BE5688FCE247}.Debug|Win32.ActiveCfg = Debug|Win32
+		{658668CE-E97D-4F53-80D2-BE5688FCE247}.Debug|Win32.Build.0 = Debug|Win32
+		{658668CE-E97D-4F53-80D2-BE5688FCE247}.Release|Win32.ActiveCfg = Release|Win32
+		{658668CE-E97D-4F53-80D2-BE5688FCE247}.Release|Win32.Build.0 = Release|Win32
+		{2B4A79B4-1931-4182-B540-B0C535540629}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2B4A79B4-1931-4182-B540-B0C535540629}.Debug|Win32.Build.0 = Debug|Win32
+		{2B4A79B4-1931-4182-B540-B0C535540629}.Release|Win32.ActiveCfg = Release|Win32
+		{2B4A79B4-1931-4182-B540-B0C535540629}.Release|Win32.Build.0 = Release|Win32
+		{EC21BD11-A8F6-45B4-9BF9-E629560E418A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EC21BD11-A8F6-45B4-9BF9-E629560E418A}.Debug|Win32.Build.0 = Debug|Win32
+		{EC21BD11-A8F6-45B4-9BF9-E629560E418A}.Release|Win32.ActiveCfg = Release|Win32
+		{EC21BD11-A8F6-45B4-9BF9-E629560E418A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
